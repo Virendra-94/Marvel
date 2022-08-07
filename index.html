@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marvel Movies & Series</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Vendor CSS Files
+    <link href="true/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="true/assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="true/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="true/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="true/assets/css/style.css">
+
+    <script src="true/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="true/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="true/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+
+    <script src="true/assets/js/carausol_slider.js"></script> -->
+</head>
+
+<body class="body">
+
+    <nav class="navbar navbar-light navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#latestMovies">
+                <img src="/images/mcu_logo.png" alt="Marvel_logo" width="150px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-5 me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white me-3" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Marvel Phase
+                        </a>
+                        <ul class="dropdown-menu text-white hover">
+                            <li><a class="dropdown-item" href="#phase1">Phase 1</a></li>
+                            <li><a class="dropdown-item" href="#phase2">Phase 2</a></li>
+                            <li><a class="dropdown-item" href="#phase3">Phase 3</a></li>
+                            <li><a class="dropdown-item" href="#phase4">Phase 4</a></li>
+                            <li><a class="dropdown-item" href="#phase5">Phase 5</a></li>
+                            <li><a class="dropdown-item" href="#phase6">Phase 6</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white me-3 hover" aria-current="page"
+                            href="OtherMovie.html">Other Marvel Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white me-3 hover" aria-current="page"
+                            href="Character.html">Characters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white hover" aria-current="page" href="Upcoming.html">Upcoming
+                            Movies/Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white hover" aria-current="page" href="About.html">About Us</a>
+                    </li>
+                </ul>
+
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search Movies/Series"
+                        aria-label="Search">
+
+                </form> -->
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- Latest Movies or Series -->
+
+    <div class="container">
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            <strong>==></strong> Since 2008, Marvel Studios has released 29 films within the MCU, from Iron Man (2008)
+            to Thor: Love and Thunder (2022), and seven television series since 2021, from WandaVision (2021) to Ms.
+            Marvel (2022).
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <h3 class="latestMovies text-white text-center" id="latestMovies">Latest Movies/Series</h3>
+        <div class="row py-3">
+            <div class="col">
+                <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-interval="1000"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/images/Thor_love_thunder.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-white">Thor Love and Thunder</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/Ms-Marvel.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-white">Ms. Marvel</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/doctor-strange-in-the-multiverse.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-white">Doctor Strange in the Multiverse of Madness</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PHASES -->
+
+
+
+    <div class="phaseTitle text-center" id="phase1">
+        <h3 class="latestMovies text-white text-center mcuHero phase" id="latestMovies"><span class="text-danger">MCU
+                Phase</span>
+            1<p class="card-text mx-5 my-3 text-white warning download"><span class="download badge text-bg-light">(2008-2012)</span>
+                Download in Hindi</p>
+        </h3>
+    </div>
+
+    <p class="card-text mx-5 my-3 text-white WarningIndex"><span class="badge text-bg-warning">Warning :</span> The
+        given
+        download links are of external website. It may/may not contain virus so please download the files at your own
+        risk. </p>
+
+
+
+
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 movieCard">
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3 my-1">
+                <img src="/images/Phase 1/iron_man_2008.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Iron Man (2008)</h5>
+
+                    <a href="https://vegamovies.wtf/download-iron-man-2008-hindi-dubbed-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 1/The-Incredible-Hulk.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The Incredible Hulk (2008)</h5>
+                    <a href="https://vegamovies.wtf/download-hulk-2-2008-dual-audio-hindi-movie-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 1/iron_man_2_2012.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Iron Man 2 (2010)</h5>
+                    <a href="https://vegamovies.wtf/download-iron-man-2-2010-hindi-dubbed-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 1/Thor.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Thor (2011)</h5>
+                    <a href="https://vegamovies.wtf/download-thor-2011-dual-audio-hindi-480p-720p-1080p-2160p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 1/Caotain America The fist avenger.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Captain America: The First Avenger (2011)</h5>
+                    <a href="https://vegamovies.wtf/download-captain-america-the-first-avenger-dual-audio-hindi-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 1/Avengers 2012.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Marvel's The Avengers (2012)</h5>
+                    <a href="https://vegamovies.wtf/download-the-avengers-2012-hindi-dubbed-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Phase 2 -->
+
+
+
+    <div class="phaseTitle text-center" id="phase2">
+        <h3 class="latestMovies text-white text-center mcuHero" id="latestMovies"><span class="text-danger">MCU
+                Phase</span>
+            2<p class="card-text mx-5 my-3 text-white warning"><span class="badge text-bg-light">(2013-2015)</span>
+                Download in Hindi </p>
+        </h3>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-1">
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3 my-1">
+                <img src="/images/Phase 2/iron_man_3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Iron Man 3 (2013)</h5>
+                    <a href="https://vegamovies.wtf/download-iron-man-3-2013-hindi-dubbed-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 2/Thor the dark world.jpg_large" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Thor: The Dark World (2013)</h5>
+                    <a href="https://vegamovies.wtf/download-thor-the-dark-world-2013-dual-audio-hindi-480p-720p-1080p-2160p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 2/Captain America the winter soldier.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Captain America: The Winter Soldier (2014)</h5>
+                    <a href="https://vegamovies.wtf/download-captain-america-the-winter-soldier-2014-dual-audio-hindi/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 2/Guardians of the galaxy.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Guardians of the Galaxy (2014)</h5>
+                    <a href="https://vegamovies.wtf/download-guardians-of-the-galaxy-dual-audio-hindi-480p-720p-1080p-bluray-movie/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 2/Avenger age of ultron.jpg_large" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Avengers: Age of Ultron (2015)</h5>
+                    <a href="https://vegamovies.wtf/download-avengers-age-of-ultron-2015-hindi-movie-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 2/Ant man.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ant-Man (2015)</h5>
+                    <a href="https://vegamovies.wtf/download-ant-man-2015-hindi-movie-480p-720p-1080p/" target="_blank"
+                        class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Phase 3 -->
+
+
+
+    <div class="phaseTitle text-center" id="phase3">
+        <h3 class="latestMovies text-white text-center mcuHero" id="latestMovies"><span class="text-danger">MCU
+                Phase</span>
+            3<p class="card-text mx-5 my-3 text-white warning"><span class="badge text-bg-light">(2016-2019)</span>
+                Download in Hindi </p>
+        </h3>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-1">
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3 my-1">
+                <img src="/images/Phase 3/captain-america-civil-war 2016.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Captain America: Civil War (2016)</h5>
+                    <a href="https://vegamovies.wtf/download-captain-america-civil-war-2016-dual-audio-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 3/Doctor Strange.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Doctor Strange (2016)</h5>
+                    <a href="https://vegamovies.wtf/download-doctor-strange-2016-dual-audio-hindi/" target="_blank"
+                        class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 3/Guardians of the galaxy vol.2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Guardians of the Galaxy Vol. 2 (2017)</h5>
+                    <a href="https://vegamovies.wtf/download-guardians-of-the-galaxy-vol-2-2017-full-movie-dual-audio-hindi/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 3/Spiderman homecoming.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Spider-Man: Homecoming (2017)</h5>
+                    <a href="https://vegamovies.wtf/download-spider-man-homecoming-2017-dual-audio-hindi-org-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 3/thor ragnarok.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Thor: Ragnarok (2017)</h5>
+                    <a href="https://vegamovies.wtf/download-thor-ragnarok-2017-hindi-dubbed-full-movie-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 3/Black Panther.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Black Panther (2018)</h5>
+                    <a href="https://vegamovies.wtf/black-panther/" target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 3/Avenger Infinity war.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Avengers: Infinity War (2018)</h5>
+                    <a href="https://vegamovies.wtf/download-avengers-infinity-war-2018-dual-audio-hindi-org-bluray-480p-720p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 3/Ant man and the wasp.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ant-Man and the Wasp (2018)</h5>
+                    <a href="https://vegamovies.wtf/download-ant-man-and-the-wasp-2018-dual-audio-full-movie-480p-720p-1080p-2160p-hdr/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 3/Captain Marvel.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Captain Marvel (2019)</h5>
+                    <a href="https://vegamovies.wtf/download-captain-marvel-2019-dual-audio-hindi/" target="_blank"
+                        class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 3/Avenger Endgaame.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Avengers: Endgame (2019)</h5>
+                    <a href="https://vegamovies.wtf/download-avengers-endgame-2019-hindi/" target="_blank"
+                        class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 3/Far from home.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Spider-Man: Far From Home (2019)</h5>
+                    <a href="https://vegamovies.wtf/download-spider-man-far-from-home-2019-dual-audio-hindi-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Phase 4 -->
+
+
+
+    <div class="phaseTitle text-center" id="phase4">
+        <h3 class="latestMovies text-white text-center mcuHero" id="latestMovies"><span class="text-danger">MCU
+                Phase</span>
+            4<p class="card-text mx-5 my-3 text-white warning"><span class="badge text-bg-light">(2021-2022)</span>
+                Download in Hindi </p>
+        </h3>
+    </div>
+    <!-- Movies Phase 4 -->
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-danger  disabled" type="button">Phase 4 Movies/Films</button>
+
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-1">
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3 my-1">
+                <img src="/images/Phase 4/Movies/Black Widow.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Black Widow (2021)</h5>
+                    <a href="https://vegamovies.wtf/download-black-widow-2021-dual-audio-hindi/" target="_blank"
+                        class="btn btn-danger">Download</a>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Movies/shang chi and the legend of the ten rings.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Shang-Chi and the Legend of the Ten Rings (2021)</h5>
+                    <a href="https://vegamovies.wtf/download-shang-chi-and-the-legend-of-the-ten-rings-2021-dual-audio-hindi-2/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Movies/Eternals.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Eternals (2021)</h5>
+                    <a href="https://vegamovies.wtf/download-eternals-2021-dual-audio-hindi/" target="_blank"
+                        class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Movies/No way home.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Spider-Man: No Way Home (2021)</h5>
+                    <a href="https://vegamovies.wtf/download-spider-man-no-way-home-2021-dual-audio-hindi-480p-720p-1080p-bluray-hd-movie/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Movies/multiverse of madness.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Doctor Strange in the Multiverse of Madness (2022)</h5>
+                    <a href="https://vegamovies.wtf/download-doctor-strange-2-2022-dual-audio-hindi-480p-720p-1080p-2160p-4k-uhd/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Movies/Thor_love_thunder.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Thor: Love and Thunder (2022)</h5>
+                    <a href="https://vegamovies.wtf/download-thor-love-and-thunder-2022-v2-hdts-dual-audio-hindi-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Movies/black_phanter.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Black Panther: Wakanda Forever (2022) </h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Series phase 4 -->
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-danger  disabled" type="button">Phase 4 Series</button>
+
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-2">
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3 my-1">
+                <img src="/images/Phase 4/Series/Wanda vision.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">WandaVision (2021)</h5>
+                    <a href="https://vegamovies.wtf/download-wandavision-2021-season-1-english-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                    <span class="badge rounded-pill text-bg-dark">English with subtitle</span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Series/Falcon and the winter soldier.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The Falcon and the Winter Soldier (2021)</h5>
+                    <a href="https://vegamovies.wtf/download-the-falcon-and-the-winter-soldier-2021-hindi-dubbed-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Series/Loki.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Loki season 1 (2021)</h5>
+                    <a href="https://vegamovies.wtf/download-loki-2021-season-1-dual-audio-hindi/" target="_blank"
+                        class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Series/What if.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">What If...? season 1 (2021)</h5>
+                    <a href="https://vegamovies.wtf/download-what-if-2021-season-1-disney-original-english-web-series/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                    <span class="badge rounded-pill text-bg-dark">English with subtitle</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Series/Hawkeye.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hawkeye (2021)</h5>
+                    <a href="https://vegamovies.wtf/download-hawkeye-2021-season-1-dual-audio-hindi/" target="_blank"
+                        class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Series/Moon Knight.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Moon Knight (2022)</h5>
+                    <a href="https://vegamovies.wtf/download-moon-knight-2022-season-1-org-hindi-dubbed-web-series-480p-720p-1080p/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Series/Ms-Marvel.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ms. Marvel (2022)</h5>
+                    <a href="https://vegamovies.wtf/download-ms-marvel-season-1-dual-audio-hindi-480p-720p-1080p-2160p-4k/"
+                        target="_blank" class="btn btn-danger">Download</a>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Series/She Hulk.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">She-Hulk: Attorney at Law (2022)</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Series/Halloween.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Untitled Halloween special (2022) -Upcoming </h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 4/Series/Gaurdians of the galaxy holiday spacial.webp" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The Guardians of the Galaxy Holiday Special (2022) -Upcoming</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Phase 5 -->
+
+
+    <div class="phaseTitle text-center" id="phase5">
+        <h3 class="latestMovies text-white text-center mcuHero" id="latestMovies"><span class="text-danger">MCU
+                Phase</span>
+            5<p class="card-text mx-5 my-3 text-white warning"><span class="badge text-bg-light">(2023-2024)</span></p>
+        </h3>
+    </div>
+    <!-- Movies Phase 5 -->
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-danger  disabled" type="button">Phase 5 Movies/Films</button>
+
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-1">
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3 my-1">
+                <img src="/images/Phase 5/Movies/quantumania.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ant-Man and the Wasp: Quantumania (2023)</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 5/Movies/Guardians of the galaxy vol 3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Guardians of the Galaxy Vol. 3 (2023)</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 5/Movies/The marvels.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The Marvels (2023)</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 5/Movies/blade.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blade (2023)</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 5/Movies/captain-america-new-world-order-cropped.avif" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Captain America: New World Order (2024)</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 5/Movies/thunderbolts.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Thunderbolts (2024)</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Series phase 5-->
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-danger  disabled" type="button">Phase 5 Series</button>
+
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-2">
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3 my-1">
+                <img src="/images/Phase 5/Series/What-If-Season-2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">What If...? season 2</h5>
+
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 5/Series/Secret-Invasion-Header.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Secret Invasion</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 5/Series/Echo.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Echo</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 5/Series/loki 2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Loki season 2</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 5/Series/Ironheart.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ironheart</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 5/Series/Agatha.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Agatha: Coven of Chaos</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-80 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 5/Series/Daredevil born agian.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Daredevil: Born Again</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Phase 6 -->
+
+
+
+    <div class="phaseTitle text-center" id="phase6">
+        <h3 class="latestMovies text-white text-center mcuHero" id="latestMovies"><span class="text-danger">MCU
+                Phase</span>
+            6<p class="card-text mx-5 my-3 text-white warning"><span class="badge text-bg-light">(2024-2025)</span></p>
+        </h3>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-1">
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3 my-1">
+                <img src="/images/Phase 6/Fantastic 4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fantastic Four (2024)</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 6/Avengers kangdynasty-.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Avengers: The Kang Dynasty (2025)</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border border-danger shadow-0 mb-3">
+                <img src="/images/Phase 6/Avengers-Secret-Wars.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Avengers: Secret Wars (2025)</h5>
+                    <a href="#!" target="_blank" class="btn btn-danger disabled">Upcoming...</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <footer class="text-center text-white my-3" style="background-color: #335c88;">
+
+        <div class="container pt-4">
+
+            <section class="mb-4">
+
+                <a class="btn btn-link btn-floating btn-lg text-white m-1"
+                    href="https://www.linkedin.com/in/virendra-kumar-448184230/" role="button"
+                    data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
+
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://github.com/Virendra-94"
+                    role="button" data-mdb-ripple-color="dark"><i class="bi bi-github"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-white m-1"
+                    href="https://www.instagram.com/virendra_694/" role="button" data-mdb-ripple-color="dark"><i
+                        class="bi bi-instagram"></i></a>
+
+
+
+            </section>
+
+        </div>
+
+
+
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://github.com/Virendra-94">Marvel-Cinematic-Universe.com</a>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Lobster+Two:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  @media only screen and (max-width: 430px) {
+    .card-title{
+        
+        font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    .btn-danger{
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .phase{
+        
+        font-size: 1.5rem;
+    }
+  }
+  @media only screen and (max-width: 1380px) {
+    .WarningIndex{
+        font-size: 1rem;
+        padding-top: 6rem;
+        
+    }
+  }
+  @media only screen and (max-width: 352px) {
+    .WarningIndex{
+        
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .download{
+        
+        font-size: 0.7rem;
+    }
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+.body{
+    background-color: #162e48;
+}
+.navbar{
+    background-color: #162e48;
+}
+.hover:hover{
+    
+    
+    color: #000000;
+    border: 2px solid red;   
+    border-radius: 13px;
+}
+.alert-dismissible{
+    margin-top: 4rem;
+}
+@media only screen and (max-width: 992px) {
+    .alert-dismissible{
+        margin-top: 8rem;
+        font-size: 0.8rem;
+    }
+  }
+ 
+.movieCard{
+    margin-top: 3rem;
+}
+@media only screen and (max-width: 1380px) {
+    .movieCard{
+        margin-top: 1.5rem;
+        
+    }
+  }
+.latestMovies{
+    padding-top: 0px;
+    margin-top: 4.5rem;
+    padding-bottom: 30px;
+}
+.lmoviesCard{
+    margin-bottom: 20px;
+}
+.lmoviecardGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lmoviegroup{
+    width: 80vw;
+
+}
+
+.navbar-toggler{
+    background-color: white;
+    outline: none;
+}
+.navbar-toggler:focus{
+    
+    color: #162e48;
+}
+.navbar-toggler:hover{
+    background-color: gray;
+    border: 2px solid red;
+}
+.phase{
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    padding-top: 0px;
+    height: 2rem;
+   
+}
+.sticky-top {
+    
+    padding-top: 3rem;
+    height:1rem;
+    
+}
+@media only screen and (max-width: 600px) {
+    .sticky-top{
+        height: 1rem;
+        padding-top: 0;
+    }
+  }
+.disabled{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.container-fluid{
+    background-color: #162e48;
+    padding-bottom: 1rem;
+}
+a{
+    text-decoration: none;
+}
+.h3{
+    
+    cursor:default;
+    margin-top: 2rem;
+    
+}
+.carousel-inner{
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.aboutCard{
+    background-color: #162e48;
+    border: 2px solid white;
+    color: white;
+    margin-top: 7rem;
+}
+
+.aboutHeader{
+    font-family: 'Lobster Two';
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fcfdff;
+    border: 2px solid rgb(5, 52, 106);
+}
+.aboutData{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+@media only screen and (max-width: 600px) {
+    .aboutData{
+        font-size: 1rem;
+    }
+  }
+.aboutTitle{
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.releaseDate{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #db1010;
+}
+
+.warning{
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 19px;
+  padding-top: 2rem;
+}
+.WarningIndex{
+    text-align: center;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 19px;
+}
+
+@media only screen and (max-width: 600px) {
+    .WarningIndex{
+        font-size: 1rem;
+    }
+  }
+
+.follow{
+    font-family:Poppins;
+    font-weight: 500;
+}
+
+.mcuHero{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+.characterCard{
+    border: 3px solid white;
+ 
+    border-radius: 7px;
+    width: 80%;
+    height: 15rem;
+}
+.xMen{
+    
+    font-size: 1.2rem;
+   font-family: 'Philosopher', sans-serif;;
+}
